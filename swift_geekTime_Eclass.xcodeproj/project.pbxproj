@@ -36,6 +36,9 @@
 		BC6F205E2AD341F50088821D /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6F205D2AD341F50088821D /* Product.swift */; };
 		BC6F20602AD3426E0088821D /* Deal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6F205F2AD3426E0088821D /* Deal.swift */; };
 		BC6F20622AD342990088821D /* FakeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6F20612AD342990088821D /* FakeData.swift */; };
+		BCC5F2962AD43B6600B5DFFA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC5F2952AD43B6600B5DFFA /* BaseViewController.swift */; };
+		BCC5F2982AD43C4200B5DFFA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC5F2972AD43C4200B5DFFA /* LoginViewController.swift */; };
+		BCC5F29A2AD43CF800B5DFFA /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC5F2992AD43CF800B5DFFA /* R.generated.swift */; };
 		FE6F0511B28C3AF49BF67178 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6F02FAD060038BFBE20B49 /* UIColorExtension.swift */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +75,9 @@
 		BC6F205D2AD341F50088821D /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		BC6F205F2AD3426E0088821D /* Deal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deal.swift; sourceTree = "<group>"; };
 		BC6F20612AD342990088821D /* FakeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeData.swift; sourceTree = "<group>"; };
+		BCC5F2952AD43B6600B5DFFA /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		BCC5F2972AD43C4200B5DFFA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BCC5F2992AD43CF800B5DFFA /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		FA0FEF5F4AF02434103ABBAA /* Pods-swift_geekTime_Eclass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift_geekTime_Eclass.release.xcconfig"; path = "Target Support Files/Pods-swift_geekTime_Eclass/Pods-swift_geekTime_Eclass.release.xcconfig"; sourceTree = "<group>"; };
 		FE6F02FAD060038BFBE20B49 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,6 +123,7 @@
 		BC6F1FF82AD33B350088821D /* swift_geekTime_Eclass */ = {
 			isa = PBXGroup;
 			children = (
+				BCC5F2992AD43CF800B5DFFA /* R.generated.swift */,
 				BC6F205C2AD341D50088821D /* Model */,
 				BC6F200F2AD3405E0088821D /* Resource */,
 				BC6F1FF92AD33B350088821D /* AppDelegate.swift */,
@@ -127,6 +134,8 @@
 				BC6F20042AD33B380088821D /* LaunchScreen.storyboard */,
 				BC6F20072AD33B380088821D /* Info.plist */,
 				FE6F0A81F9891EE805C59F75 /* Extensions */,
+				BCC5F2952AD43B6600B5DFFA /* BaseViewController.swift */,
+				BCC5F2972AD43C4200B5DFFA /* LoginViewController.swift */,
 			);
 			path = swift_geekTime_Eclass;
 			sourceTree = "<group>";
@@ -338,11 +347,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCC5F2982AD43C4200B5DFFA /* LoginViewController.swift in Sources */,
 				BC6F20622AD342990088821D /* FakeData.swift in Sources */,
 				BC6F1FFE2AD33B350088821D /* ViewController.swift in Sources */,
 				BC6F205E2AD341F50088821D /* Product.swift in Sources */,
 				BC6F20602AD3426E0088821D /* Deal.swift in Sources */,
 				BC6F1FFA2AD33B350088821D /* AppDelegate.swift in Sources */,
+				BCC5F2962AD43B6600B5DFFA /* BaseViewController.swift in Sources */,
+				BCC5F29A2AD43CF800B5DFFA /* R.generated.swift in Sources */,
 				BC6F1FFC2AD33B350088821D /* SceneDelegate.swift in Sources */,
 				FE6F0511B28C3AF49BF67178 /* UIColorExtension.swift in Sources */,
 			);
