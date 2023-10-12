@@ -42,6 +42,7 @@
 		BCC5F29C2AD5F53700B5DFFA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC5F29B2AD5F53700B5DFFA /* HomeViewController.swift */; };
 		BCC5F29E2AD5F54E00B5DFFA /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC5F29D2AD5F54E00B5DFFA /* MineViewController.swift */; };
 		BCDD91092AD74A2B003579EC /*  BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDD91082AD74A2B003579EC /*  BannerView.swift */; };
+		BCDD910B2AD86700003579EC /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDD910A2AD86700003579EC /* ProductList.swift */; };
 		FE6F0511B28C3AF49BF67178 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6F02FAD060038BFBE20B49 /* UIColorExtension.swift */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +85,7 @@
 		BCC5F29B2AD5F53700B5DFFA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BCC5F29D2AD5F54E00B5DFFA /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
 		BCDD91082AD74A2B003579EC /*  BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " BannerView.swift"; sourceTree = "<group>"; };
+		BCDD910A2AD86700003579EC /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
 		FA0FEF5F4AF02434103ABBAA /* Pods-swift_geekTime_Eclass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift_geekTime_Eclass.release.xcconfig"; path = "Target Support Files/Pods-swift_geekTime_Eclass/Pods-swift_geekTime_Eclass.release.xcconfig"; sourceTree = "<group>"; };
 		FE6F02FAD060038BFBE20B49 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -189,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				BCDD91082AD74A2B003579EC /*  BannerView.swift */,
+				BCDD910A2AD86700003579EC /* ProductList.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -375,6 +378,7 @@
 				BCC5F29A2AD43CF800B5DFFA /* R.generated.swift in Sources */,
 				BC6F1FFC2AD33B350088821D /* SceneDelegate.swift in Sources */,
 				FE6F0511B28C3AF49BF67178 /* UIColorExtension.swift in Sources */,
+				BCDD910B2AD86700003579EC /* ProductList.swift in Sources */,
 				BCC5F29E2AD5F54E00B5DFFA /* MineViewController.swift in Sources */,
 				BCDD91092AD74A2B003579EC /*  BannerView.swift in Sources */,
 			);

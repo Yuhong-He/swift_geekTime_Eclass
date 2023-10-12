@@ -35,6 +35,14 @@ class HomeViewController: BaseViewController, BannerViewDataSource {
         bannerView.isInfinite = true
         bannerView.dataSource = self
         view.addSubview(bannerView)
+        
+        let productList = ProductList()
+        productList.items = FakeData.createProducts()
+        view.addSubview(productList)
+        productList.snp.makeConstraints { (make) in
+            make.left.right.bottom.equalToSuperview()
+            make.top.equalTo(bannerView.snp.bottom).offset(5)
+        }
     }
     
 
