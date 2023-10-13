@@ -9,6 +9,10 @@ import Foundation
 import UIKit
 import SnapKit
 
+protocol ProductListDelegate: AnyObject {
+    func didSelectProduct(product: Product)
+}
+
 class ProductCell: UITableViewCell {
     
     let priceLabel: UILabel
@@ -84,6 +88,8 @@ class ProductList: UIView, UITableViewDataSource, UITableViewDelegate {
         }
     }
     
+    weak var delegate: ProductListDelegate?
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return items.count
     }
@@ -119,5 +125,10 @@ class ProductList: UIView, UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 120
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        delegate?.didSelectProduct(product: items[indexPath.row])
+        tableView.deselectRow(at: indexPath, animated: true)
     }
 }
